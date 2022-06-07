@@ -148,7 +148,7 @@ def Verify():
         VERIFIED = True
         latitude = str(request.form['lat'])
         longitude = str(request.form['long'])
-        # IDAC = str(request.form['IDAC'])
+        # AED = str(request.form['AED'])
         globaladdress = findaddressusingcoordinates(latitude,longitude)
         pluscode = findpluscode(latitude,longitude)
         return render_template('VerifyCode.html', verified=VERIFIED, global_address=globaladdress, plus_code=pluscode, latitude_generated=latitude,longitude_generated=longitude)

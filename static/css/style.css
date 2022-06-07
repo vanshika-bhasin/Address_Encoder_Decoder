@@ -122,7 +122,7 @@
     margin-right: 30px;
     padding: 40px 0;
     color: var(--light);
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -241,6 +241,10 @@
 
 
 /*** Team ***/
+.teamrow{
+display:flex;
+justify-content:center;
+}
 .team-item .team-img::before,
 .team-item .team-img::after {
     position: absolute;
@@ -249,7 +253,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .85);
+    background: rgba(0, 0, 0, .8);
     transition: .5s;
 }
 
@@ -284,7 +288,7 @@
 
 .team-item .team-social .btn {
     display: inline-flex;
-    margin: 0 3px;
+    margin: 0 4px;
     color: var(--primary);
     background: var(--dark);
 }
