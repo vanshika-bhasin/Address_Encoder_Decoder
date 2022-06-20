@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SIH-Ignite.iml" filepath="$PROJECT_DIR$/.idea/SIH-Ignite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AED.iml" filepath="$PROJECT_DIR$/.idea/AED.iml" />
     </modules>
   </component>
 </project>
